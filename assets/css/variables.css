@@ -1,0 +1,10 @@
+:root {
+    --primary-color: #fa573a;
+    --secondary-color: #21242e;
+    --primary-font: "Montserrat", serif;
+    --secondary-font: "Handlee", serif;
+
+    /* para incluir: espacio intercolumnar: :root{--gap{ width:16px}} */
+    --gap: 1rem;
+
+}
