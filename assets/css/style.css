@@ -2,7 +2,7 @@
 
 /* fonts */
 /* cargamos fuentes google fonts: Montserrat 400 y 700, Handlee */
-@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:ital,wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 /*  font-family: "Montserrat", serif;
     font-weight: 400 / 700;
     font-family: "Handlee", serif;
@@ -15,11 +15,11 @@
 /* variables root */
 @import url(./variables.css);
 
-/* para incluir: espacio intercolumnar: :root{--gap{ width:16px}} */
-
 /* layout */
+@import url(./layout.css);
 
 /* header */
+@import url(./header.css);
 
 /* main */
 

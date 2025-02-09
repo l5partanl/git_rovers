@@ -1,0 +1,68 @@
+#contacto {
+    background-color: var(--secondary-color);
+
+    .icons {
+        display: flex;
+        justify-content: space-between;
+
+        span {
+            display: none;
+        }
+
+        i {
+            font-size: 2rem;
+            padding: 0.9375rem;
+            display: inline-block;
+            color: var(--primary-color)
+        }
+    }
+}
+
+header .hamburguer {
+    width: 3.125rem;
+    cursor: pointer;
+
+    div {
+        background-color: rgb(180, 180, 180);
+        width: 35px;
+        height: 0.125rem;
+        margin: 12px 0;
+    }
+}
+
+header figure {
+    width: 7.8125rem;
+    margin: 5px 0;
+}
+
+header nav.container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+header nav ul {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+header nav ul a {
+    display: inline-block;
+    color: gray;
+    text-decoration: none;
+
+    padding: 10px;
+    width: 100%;
+
+    &:hover {
+        color: var(--primary-color);
+        transition: 0.5s;
+    }
+}
+
+#inicio a {
+    color: var(--primary-color);
+}

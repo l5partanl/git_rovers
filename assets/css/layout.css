@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    width: 90%;
+    max-width: 62.75rem;
+    /* 1004px max desktop */
+    margin: 0 auto;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    font-weight: 500;
+    color: grey;
+}
