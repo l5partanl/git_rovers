@@ -10,7 +10,7 @@
         }
 
         i {
-            font-size: 2rem;
+            font-size: 1.5rem;
             padding: 0.9375rem;
             display: inline-block;
             color: var(--primary-color)
@@ -19,24 +19,24 @@
 }
 
 header .hamburguer {
-    width: 3.125rem;
+    width: 3rem;
     cursor: pointer;
 
     div {
         background-color: rgb(180, 180, 180);
-        width: 35px;
+        width: 30px;
         height: 0.125rem;
-        margin: 12px 0;
+        margin: 8px 0;
     }
 }
 
 header figure {
-    width: 7.8125rem;
-    margin: 5px 0;
+    width: 7rem;
+    /* margin-top: 20px; */
 }
 
 header nav.container {
-    margin-top: 10px;
+    padding: 8px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -46,7 +46,7 @@ header nav.container {
 header nav ul {
     width: 100%;
     text-align: center;
-    margin-top: 20px;
+    /*     margin-top: 20px; */
 }
 
 header nav ul a {
