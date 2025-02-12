@@ -17,3 +17,58 @@
         }
     }
 }
+
+
+
+.title {
+    height: 100px;
+    align-content: center;
+    text-align: center;
+
+    hr {
+        width: 100px;
+        border: none;
+        height: 2px;
+        background-color: var(--primary-color);
+        color: var(--primary-color);
+        transform: translateY(-8px);
+    }
+
+    p {
+        color: var(--primary-color);
+        transform: translateY(-25px);
+        font-weight: 700;
+    }
+
+    span {
+        color: var(--primary-color);
+    }
+}
+
+.flex {
+    display: flexbox;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 5px;
+
+    article {
+        display: inline-block;
+        margin: 10px;
+
+        i {
+            color: var(--primary-color);
+            font-size: 2rem;
+            padding: 5px;
+            border: 1px solid var(--primary-color);
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: var(--primary-color);
+            font-weight: 700;
+            padding: 15px 0;
+
+        }
+    }
+}

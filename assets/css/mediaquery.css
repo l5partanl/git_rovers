@@ -17,34 +17,43 @@
     }
 
     /* contenido en 2 columnas */
+    .flex {
 
-
-
-
-
-    /* SALTO A 769px */
-    @media(width>=769px) {
-
-        header .hamburguer {
-            display: none;
-            /* ver por que me lo borra en todos lados */
-        }
-
-        header nav ul {
-            width: 30%;
-            display: inline-flex;
-
-        }
-
-        header nav ul a {
-            display: flex;
-        }
-
-        hr {
-            display: none;
+        article {
+            width: 45%;
         }
     }
 
-    /* contenido en 3 columnas */
+}
 
-    /* MAX DE DESKTOP 1004px */
+
+/* SALTO A 769px */
+@media(width>=769px) {
+
+    header .hamburguer {
+        display: none;
+        /* ver por que me lo borra en todos lados */
+    }
+
+    header nav ul {
+        width: 30%;
+        display: inline-flex;
+
+    }
+
+    header nav ul a {
+        display: flex;
+    }
+
+    hr {
+        display: none;
+    }
+
+
+    /* contenido en 3 columnas */
+    .flex article {
+        width: 30%;
+    }
+}
+
+/* MAX DE DESKTOP 1004px */
