@@ -1,0 +1,6 @@
+.hero {
+    height: 600px;
+    background-image: url(../images/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+}

@@ -21,3 +21,33 @@ body {
     font-weight: 500;
     color: grey;
 }
+
+h1 {
+    font-size: 2rem;
+    font-family: var(--secondary-font);
+    color: white;
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-family: var(--secondary-font);
+    color: black;
+}
+
+h3 {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+}
+
+h4 {
+    color: white;
+}
+
+h5 {
+    color: black;
+    font-weight: 700;
+}
+
+h6 {
+    color: var(--primary-color);
+}
