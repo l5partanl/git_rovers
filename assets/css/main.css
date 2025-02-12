@@ -1,6 +1,19 @@
 .hero {
-    height: 600px;
+    height: 100vh;
     background-image: url(../images/fondo.jpg);
     background-position: center;
     background-size: cover;
+    align-content: center;
+    background-color: #707070;
+    background-blend-mode: multiply;
+
+    li {
+        margin: 10px;
+        display: inline-block;
+
+        i {
+            color: white;
+            font-size: 2rem;
+        }
+    }
 }
