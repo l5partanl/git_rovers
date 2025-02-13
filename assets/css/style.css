@@ -25,6 +25,7 @@
 @import url(./main.css);
 
 /* footer */
+@import url(./footer.css);
 
 /* mediaqueries (siempre al ultimo) */
 @import url(./mediaquery.css);

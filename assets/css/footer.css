@@ -1,0 +1,15 @@
+footer {
+    background-color: var(--secondary-color);
+    height: 35px;
+    align-content: center;
+    text-align: center;
+    color: white;
+    position: sticky;
+    bottom: 0rem;
+    z-index: 1;
+
+    p a {
+        text-decoration: none;
+        color: white;
+    }
+}
