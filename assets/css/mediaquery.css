@@ -1,27 +1,40 @@
 /* MOBILE FIRST */
 /* contenido en una columna */
 
-
-
-
-
 /* SALTO 601px */
 @media(width>=601px) {
 
-    #contacto .icons {
-        span {
-            display: inline-flex;
-            color: white;
-            /* ver como centrar texto, verificar que es tamaño y color correcto */
+    /* contenido en 2 columnas */
+    .flex {
+        article {
+            width: 45%;
+            border-left: 2px solid lightgrey;
+            border-bottom: 0px solid lightgrey;
+            padding: 0 20px;
+
+            &:last-child {
+                width: 100%;
+            }
         }
     }
 
-    /* contenido en 2 columnas */
-    .flex {
+    .about {
+        height: auto;
 
-        article {
+        .rotate {
             width: 45%;
         }
+
+        #history {
+            margin: 0 50px;
+            width: 40%;
+            display: inline-block;
+            position: absolute;
+
+        }
+
+
+
     }
 
 }
@@ -30,29 +43,44 @@
 /* SALTO A 769px */
 @media(width>=769px) {
 
-    header .hamburguer {
-        display: none;
-        /* ver por que me lo borra en todos lados */
-    }
+    header {
 
-    header nav ul {
-        width: 30%;
-        display: inline-flex;
+        #contacto .icons {
 
-    }
+            span {
+                display: inline-flex;
+                color: white;
+            }
+        }
 
-    header nav ul a {
-        display: flex;
-    }
+        .hamburguer {
+            display: none;
+            /* ver por que me lo borra en todos lados */
+        }
 
-    hr {
-        display: none;
+        nav ul {
+            width: 30%;
+            display: inline-flex;
+
+        }
+
+        nav ul a {
+            display: flex;
+        }
+
+        hr {
+            display: none;
+        }
     }
 
 
     /* contenido en 3 columnas */
     .flex article {
         width: 30%;
+
+        &:last-child {
+            width: 30%;
+        }
     }
 }
 

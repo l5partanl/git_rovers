@@ -54,6 +54,7 @@
     article {
         display: inline-block;
         margin: 10px;
+        border-bottom: 2px solid lightgrey;
 
         i {
             color: var(--primary-color);
@@ -110,7 +111,6 @@
 }
 
 .about {
-    height: 700px;
 
     div p {
         margin-bottom: 20px;
